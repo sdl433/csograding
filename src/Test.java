@@ -1,9 +1,9 @@
 import java.io.File;
 import java.io.IOException;
 
-public class Problem1 {	
+public class Test {	
 	
-	public static void main(String[] args) throws IOException {
+	public static String generateTestCase(int problem) throws IOException {
 		
 		File input = new File("src/input.txt");
 		RandomWord rw = new RandomWord(64, input);
@@ -21,7 +21,9 @@ public class Problem1 {
 			if (command == 's' || command == 'l') size--;
 			
 			String query = command == 'a' ? command + " " + rw.nextWord(): command + "";
-			System.out.println(query);
+			sb.append(query + "\n");
 		}
+		
+		return sb.toString();
 	}
 }

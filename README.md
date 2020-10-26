@@ -5,3 +5,5 @@ This API seeks to simplify the grading process for CSO assignments. The main fun
 3.) pass them into correct code  
 4.) pass them into the student submission's code  
 5.) compare the outputs  
+  
+The master branch contains the code (i.e. the interesting stuff).

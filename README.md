@@ -1,5 +1,5 @@
 # CSO Grading API
-This API seeks to simplify the grading process for CSO assignments. The main function will:
+This API seeks to simplify the grading process for CSO assignments. The main function will:  
 1.) take in a student submission as a parameter  
 2.) randomly generate test cases  
 3.) pass them into correct code  

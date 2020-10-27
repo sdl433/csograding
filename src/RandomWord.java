@@ -1,13 +1,18 @@
 import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+/**
+ * The following class generates a random word given an input file 
+ * containing words separated by newlines
+ * 
+ * @author - Sebastian De Jesus Lopez
+ * @version 26 October 2020 
+ **/
 public class RandomWord extends Random {
 	
 	private List<String> dict;

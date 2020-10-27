@@ -10,7 +10,7 @@ public class Test {
 		
 		char[] commands = {'a', 'p', 's', 'l'};
 		int numQueries = rw.nextInt(900) + 100; //Not so big test cases
-		//Big as hell is 10000
+		//Pretty big is 10000
 		
 		int size = 0;
 		StringBuilder sb = new StringBuilder();
